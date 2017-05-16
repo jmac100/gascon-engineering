@@ -1,0 +1,21 @@
+.container-fluid {
+    height: auto;
+    background-color: #EBEBED;
+}
+
+.container {
+    padding-top: 35px;
+}
+
+.card {
+    margin-bottom: 35px;
+    width: 20rem;
+}
+
+p {
+    font-size: 20px;
+}
+
+.service {
+    background-color: #E0E0E0;    
+}

@@ -2,17 +2,17 @@
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="#">Gascon Engineering</a>
+  <a class="navbar-brand" href="#">G.E.S.D</a>
   <div class="collapse navbar-collapse" id="navbarCollapse">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
-        <a class="nav-link" routerLink="/">Home <span class="sr-only">(current)</span></a>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" onclick='$(".navbar-collapse").collapse("hide");'>Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Services</a>
+        <a class="nav-link" routerLink="/services" routerLinkActive="active" onclick='$(".navbar-collapse").collapse("hide");'>Services</a>
       </li>
-      <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" routerLink="/contact">Contact</a>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/contact" routerLinkActive="active" onclick='$(".navbar-collapse").collapse("hide");'>Contact</a>
       </li>
     </ul>
   </div>

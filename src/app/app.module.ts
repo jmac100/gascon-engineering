@@ -8,21 +8,26 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
+import { ServiceDetailsComponent } from './service-details/service-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     HomeComponent,
-    ContactComponent
+    ContactComponent,
+    FooterComponent,
+    ServiceDetailsComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    RouterModule.forRoot([
-      { path: '', component: HomeComponent },
-      { path: 'contact', component: ContactComponent }
+    RouterModule.forRoot([      
+      { path: 'contact', component: ContactComponent },
+      { path: 'services', component: ServiceDetailsComponent },
+      { path: '', component: HomeComponent }
     ])
   ],
   providers: [],

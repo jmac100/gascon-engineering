@@ -1,0 +1,17 @@
+footer {
+    height: auto;
+    width: 100%;
+    color: #fff;
+    background: #333;
+    text-align: center;
+    padding-top: 5px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul li {
+    padding: 10px;
+}
