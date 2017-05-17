@@ -1,6 +1,12 @@
+#showcase {
+    min-height: 400px;
+    background: url('../../assets/img/services.jpg') no-repeat 0 -375px;
+    text-align: center;
+    color: #000;
+}
+
 .container-fluid {
     height: auto;
-    background-color: #EBEBED;
 }
 
 .container {
@@ -14,8 +20,4 @@
 
 p {
     font-size: 20px;
-}
-
-.service {
-    background-color: #E0E0E0;    
 }
