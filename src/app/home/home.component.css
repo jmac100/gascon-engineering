@@ -6,17 +6,25 @@
 }
 
 #showcase h1 {
-    padding-top: 100px;
-    font-size: 55px;
+    padding-top: 50px;
+    font-size: 30px;
     margin-bottom: 10px;
 }
 
-#showcase p {
-    font-size: 20px;
+#showcase p, #about p {
+    font-size: 18px;
 }
 
-#showcase p, #about p {
-    font-size: 20px;
+@media(min-width: 992px){
+    #showcase h1 {
+        padding-top: 50px;
+        font-size: 55px;
+        margin-bottom: 10px;
+    }
+
+    #showcase p {
+        font-size: 20px;
+    }
 }
 
 #about {
